@@ -1,0 +1,48 @@
+body {
+	margin: 1.5em;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.ext_header {
+	height: ;
+	width: 100%;
+	background: #F1F1F1;
+	padding: 1em;
+	margin-bottom: 1.5em;
+}
+
+.ext_header_image {
+	height: 64px;
+	width: 64px;
+	float: left;
+	margin: 0.5em 1em 0 0;
+	background: url( 'images/icon128.png' );
+	background-size: contain;
+}
+
+h1 {
+	color: #53637D;
+	text-shadow: white 0 1px 2px;
+	font-weight: normal;
+}
+
+.content {
+	max-width: 800px;
+}
+
+.ext_option {
+	margin-bottom: 1.5em;
+	border-top: 1px solid #ccc;
+}
+
+.ext_option > h3 {
+	float: left;
+	width: 200px;
+	margin: 1em 0;
+	font-size: 105%;
+}
+
+.ext_option_field {
+	float: left;
+	margin: 1em 0;
+}

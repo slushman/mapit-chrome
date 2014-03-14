@@ -1,0 +1,14 @@
+{
+	"extName": {
+		"description": "The name of the application, displayed in the web store.",
+		"message": "MapIt!"
+	},
+	"extDesc": {
+		"description": "The description of the application, displayed in the web store.",
+		"message": "Quickly map a location on the map service of your choice. Select the text, right-click to open a context menu, then select 'MapIt!'."
+	},
+	"map_it": {
+		"description": "Text to be displayed in the context menu.",
+		"message": "MapIt!"
+	}
+}
