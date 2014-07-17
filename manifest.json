@@ -17,5 +17,5 @@
 	"options_page": "options.html",
 	"permissions": [ "contextMenus", "storage" ],
 	"short_name": "MapIt!",
-	"version": "0.1"
+	"version": "0.2"
 }
