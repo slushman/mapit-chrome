@@ -6,23 +6,31 @@
 	<link rel="stylesheet" type="text/css" href="options.css" />
 </head>
 <body>
-	<div class="ext_header">
-		<span class="ext_header_image"></span>
-		<h1>MapIt! for Chrome Settings</h1>
-	</div>
-	<div class="content">
-		<div class="ext_option">
-			<h3>Map Preference:</h3>
-			<div class="ext_option_field">
-				<select id="mapPref">
-					<option value="google">Google Maps</option>
-					<option value="mapquest">Mapquest</option>
-					<option value="bing">Bing</option>
-					<option value="zillow">Zillow</option>
-				</select>
-			</div>
-		</div>
-	</div>
+  <div class="wrap">
+    <div class="content">
+      <label class="option">
+        <span>Map Preference:</span>
+        <select id="mapPref">
+          <option value="google">Google Maps</option>
+          <option value="apple">Apple</option>
+          <option value="bing">Bing</option>
+          <option value="googleearth">Google Earth</option>
+          <option value="herewego">HERE WeGo</option>
+          <option value="mapquest">Mapquest</option>
+          <option value="openstreetmap">OpenStreetMap</option>
+          <option value="zillow">Zillow</option>
+        </select>
+      </label>
+      <div class="saveAndStatus">
+        <div id="status"></div>
+        <button id="save">Save</button>
+      </div>
+    </div>
+    <footer>
+      <p>Brought to you by <a href="https://www.slushman.com">slushman</a>.</p>
+      <p>Feel free to submit ideas, bugs and pull request on <a href="https://github.com/slushman/mapit-chrome">GitHub</a>.</p>
+    </footer>
+  </div>
 	<script src="options.js"></script>
 </body>
 </html>
